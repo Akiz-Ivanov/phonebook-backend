@@ -34,7 +34,6 @@ app.use(morgan((function (tokens, req, res) {
     return log.join(' ')
 })))
 
-
 // Data
 let persons = [
     {
