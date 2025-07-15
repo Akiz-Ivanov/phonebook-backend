@@ -52,13 +52,15 @@ cd phonebook-backend
 npm install
 ```
 
-### 3. Run the backend
+### 3. Create a `.env` file in the root containing your MongoDB URI and PORT
+
+### 4. Run the backend
 
 ```bash
 npm start
 ```
 
-### 4. View the app
+### 5. View the app
 
 If the dist/ folder is present, visit http://localhost:3001 to see the frontend.
 
