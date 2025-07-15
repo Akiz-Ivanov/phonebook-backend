@@ -96,8 +96,18 @@ This repository includes a `requests/` folder compatible with the
 It contains ready-to-run `.http` files for testing the API endpoints directly from within VS Code.
 
 ## ✅ Exercise Coverage
+*This project includes the core backend functionalities covered in exercises 3.1 through 3.6, now implemented using MongoDB and Mongoose for persistent storage.*
+
 This project covers the following Full Stack Open exercises:
 
+- **3.1** – Phonebook backend step 1 (hardcoded data API)
+- **3.2** – Info page with contact count and date
+- **3.3** – Get a single phonebook entry by ID
+- **3.4** – Delete phonebook entries
+- **3.5** – Add new phonebook entries via POST
+- **3.6** – Error handling for missing/duplicate entries
+- **3.7** – Add Morgan middleware for logging
+- **3.8** – Configure Morgan to log POST request bodies
 - **3.9** – Connect frontend to backend  
 - **3.10** – Deploy backend to Render  
 - **3.11** – Serve production frontend from backend  
