@@ -54,6 +54,11 @@ npm install
 
 ### 3. Create a `.env` file in the root containing your MongoDB URI and PORT
 
+```
+MONGODB_URI=your-mongodb-connection-string
+PORT=3001
+```
+
 ### 4. Run the backend
 
 ```bash
