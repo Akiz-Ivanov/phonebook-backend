@@ -22,8 +22,6 @@ jspm_packages/
 .env.local
 .env.*.local
 
-# Build folders you DO NOT want to ignore (dist) — so NOT listed here
-
 # OS generated files
 .DS_Store
 Thumbs.db
