@@ -2,7 +2,8 @@
 
 This repository contains the backend for the Phonebook app from [Full Stack Open](https://fullstackopen.com/en/).
 
-The backend is built with **Node.js** and **Express**, and it also serves a production build of the React frontend created in Part 2 of the course.
+The backend is built with **Node.js**, **Express**, and **MongoDB** (using **Mongoose** as the ODM).  
+It also serves a production build of the React frontend created in Part 2 of the course.
 
 ---
 
@@ -25,9 +26,12 @@ If that happens, wait a few seconds and **refresh the page**.
 
 - Node.js
 - Express
+- MongoDB (cloud database)
+- Mongoose (MongoDB ODM)
 - Morgan (for logging)
 - Vite (frontend build tool)
 - Axios (used in frontend)
+- ESLint (code linting)
 - Render (deployment platform)
 
 ---
@@ -87,8 +91,17 @@ It contains ready-to-run `.http` files for testing the API endpoints directly fr
 ## ✅ Exercise Coverage
 This project covers the following Full Stack Open exercises:
 
-3.9 – Connect frontend to backend
-
-3.10 – Deploy backend to Render
-
-3.11 – Serve production frontend from backend
+- **3.9** – Connect frontend to backend  
+- **3.10** – Deploy backend to Render  
+- **3.11** – Serve production frontend from backend  
+- **3.12** – Add Mongoose for data persistence  
+- **3.13** – Add MongoDB Atlas and use environment variables  
+- **3.14** – Add info route with contact count and date  
+- **3.15** – Add error handling for malformatted IDs  
+- **3.16** – Add error handling for validation errors  
+- **3.17** – Add more thorough error messages  
+- **3.18** – Use `morgan` to log POST request bodies  
+- **3.19** – Separate frontend and backend repos for deployment  
+- **3.20** – Add script to build frontend and copy into backend  
+- **3.21** – Deploy fullstack app to Render
+- **3.22** – Add ESLint configuration and fix all warnings
